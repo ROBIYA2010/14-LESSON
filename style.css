@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1320px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+.wrapper{
+    width: 100%;
+    height: 911px;
+    /* background-image: url(./assets/images/rasm.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellowgreen;
+    background-position: bottom; */
+}
+.box {
+    width: 400px;
+    height: 500px;
+    border: 1px solid purple;
+    transition: all 3s ease;
+    margin: 250px;
+    transform: translate(0);
+    transform: scale(0);
+
+
+    transform: rotate(8deg);
+} 
+ .box img {
+    width: 100%; 
+ }
+.box:hover {
+    transform: translate(-200px,-200px);
+    transform: scale(0.8);
+    transform: rotate(360deg); 
+} 
